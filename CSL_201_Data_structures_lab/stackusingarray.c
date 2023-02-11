@@ -17,7 +17,7 @@ void pop(){
     }
     else{
         top--;
-        printf("%d deleted",stack[top]);
+        printf("%d deleted",stack[top]\n);
     }
     
 }
@@ -27,6 +27,7 @@ void display(){
         printf("Stack empty");
     }
     else{
+        printf("Stack elements are: \n")
         for(int i=top;i>=0;i--){
             printf("%d\n",stack[i]);
         }
