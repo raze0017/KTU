@@ -9,6 +9,7 @@ int partition(int a[],int low,int high)
         /* code */
         if (a[j]<=a[pivot])
         {
+            i++;
             /* code */
 
             temp=a[i];
