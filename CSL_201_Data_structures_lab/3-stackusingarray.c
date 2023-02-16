@@ -17,17 +17,17 @@ void pop(){
     }
     else{
         top--;
-        printf("%d deleted",stack[top]\n);
+        printf("%d deleted\n",stack[top]);
     }
     
 }
 void display(){
-        if (top==-1)
+    if (top==-1)
     {
         printf("Stack empty");
     }
     else{
-        printf("Stack elements are: \n")
+        printf("Stack elements are: \n");
         for(int i=top;i>=0;i--){
             printf("%d\n",stack[i]);
         }
